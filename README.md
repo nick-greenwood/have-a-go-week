@@ -105,11 +105,13 @@ public class Program
 ```
 ## Exercise Three
 ### The exercise
-
+Change the code so that the output is correct.
 ### Expected output
-
+```
+Joe Bloggs. Engineer. 31 years old.
+```
 ### Have a go
-
+https://dotnetfiddle.net/x9uXNP
 ### The code
 ```csharp
 
