@@ -1,6 +1,15 @@
 # Have a Go Week 2019 - C#
 
 ## Exercise One - Calculations
+### The exercise
+Fix the below code so that the Add, Subtract, Multiply and Divide methods return the correct answers.
+### Expected output
+```
+Addition: 10
+Subtraction: 4
+Multiplication: 27
+Division: 4
+```
 ### Have a go
 https://dotnetfiddle.net/WtLx0V
 ### The code
@@ -43,14 +52,17 @@ public class Program
 	}
 }
 ```
+## Exercise Two
+### The exercise
+Fix the below code so that you have built a FizzBuzz game.
 ### Expected output
 ```
-Addition: 10
-Subtraction: 4
-Multiplication: 27
-Division: 4
+Say: 1. Speak: 1
+Say: 2. Speak: 2
+Say: 3. Speak: Fizz
+Say: 4. Speak: 4
+Say: 5. Speak: Buzz
 ```
-## Exercise Two
 ### Have a go
 https://dotnetfiddle.net/Bwyjl5
 ### The code
@@ -83,12 +95,4 @@ public class Program
 		}
 	}
 }
-```
-### Expected output
-```
-Say: 1. Speak: 1
-Say: 2. Speak: 2
-Say: 3. Speak: Fizz
-Say: 4. Speak: 4
-Say: 5. Speak: Buzz
 ```
