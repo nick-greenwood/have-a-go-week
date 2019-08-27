@@ -5,14 +5,11 @@ Welcome to the Have a Go Week session for C#.
 Each exercise is broken down into four parts:
 1. **The exercise** - the explanation of the problem
 2. **Expected output** - What you should expect the code to output if you code is correct
-
-![run](/.attachments/ide-explained.png)
-
 3. **Have a go** - The editor for your code. This is where you will see the code and change it. You can run the code at any point by clicking Run
 
-![run](/.attachments/run.png)
+![run](/.attachments/ide.png)
 
-4. **The code** - The code that will be changed to pass the exercise
+4. **The code** - The starting point for the code, before any changes are made
 ## Exercise One - Calculations
 ### The exercise
 Fix the below code so that the Add, Subtract, Multiply and Divide methods return the correct answers.
