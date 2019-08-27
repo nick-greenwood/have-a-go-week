@@ -114,5 +114,46 @@ Joe Bloggs. Engineer. 31 years old.
 https://dotnetfiddle.net/x9uXNP
 ### The code
 ```csharp
-
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		var human = new Human("Joe", "Bloggs", "Engineer", DateTime.Now.AddYears(-31).AddMonths(4));
+		
+		Console.WriteLine(string.Format("{0}. {1}. {2} years old.", human.FullName(), human.JobTitle(), human.Age()));
+	}
+	
+	public class Human
+	{
+		private string _firstName;
+		private string _surname;
+		private string _jobTitle;
+		private DateTime _dateOfBirth;
+		
+		public Human(string firstName, string surname, string jobTitle, DateTime dateOfBirth)
+		{
+			_firstName = firstName;
+			_surname = surname;
+			_jobTitle = jobTitle;
+			_dateOfBirth = dateOfBirth;
+		}
+		
+		public string FullName()
+		{
+			return "";
+		}
+		
+		public string JobTitle()
+		{
+			return "";
+		}
+		
+		public int Age()
+		{
+			return 0;
+		}
+	}
+}
 ```
