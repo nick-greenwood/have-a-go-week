@@ -6,7 +6,7 @@ Each exercise is broken down into four parts:
 1. **The exercise** - the explanation of the problem
 2. **Expected output** - What you should expect the code to output if you code is correct
 
-![run](/.attachments/ide.png)
+![run](/.attachments/ide-explained.png)
 
 3. **Have a go** - The editor for your code. This is where you will see the code and change it. You can run the code at any point by clicking Run
 
