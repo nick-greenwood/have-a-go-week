@@ -13,10 +13,10 @@ public class Program
 	{
 		var calculator = new Calculator();
 		
-		Console.WriteLine(string.Format("Addition: {0}", calculator.Add(1,1)));
-		Console.WriteLine(string.Format("Subtraction: {0}", calculator.Subtract(1,1)));
-		Console.WriteLine(string.Format("Multiplication: {0}", calculator.Multiply(1,1)));
-		Console.WriteLine(string.Format("Division: {0}", calculator.Divide(1,1)));
+		Console.WriteLine(string.Format("Addition: {0}", calculator.Add(7,3)));
+		Console.WriteLine(string.Format("Subtraction: {0}", calculator.Subtract(8,4)));
+		Console.WriteLine(string.Format("Multiplication: {0}", calculator.Multiply(9,3)));
+		Console.WriteLine(string.Format("Division: {0}", calculator.Divide(12,3)));
 	}
 	
 	public class Calculator
