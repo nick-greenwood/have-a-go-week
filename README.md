@@ -23,45 +23,13 @@ Division: 4
 ### Have a go
 https://dotnetfiddle.net/WtLx0V
 ### The code
-```csharp
-using System;
 
-public class Program
-{
-	public static void Main(string[] args)
-	{
-		var calculator = new Calculator();
-		
-		Console.WriteLine(string.Format("Addition: {0}", calculator.Add(7,3)));
-		Console.WriteLine(string.Format("Subtraction: {0}", calculator.Subtract(8,4)));
-		Console.WriteLine(string.Format("Multiplication: {0}", calculator.Multiply(9,3)));
-		Console.WriteLine(string.Format("Division: {0}", calculator.Divide(12,3)));
-	}
-	
-	public class Calculator
-	{
-		public int Add(int numberOne, int numberTwo)
-		{
-			return 0;
-		}
-		
-		public int Subtract(int numberOne, int numberTwo)
-		{
-			return 0;
-		}
-		
-		public int Multiply(int numberOne, int numberTwo)
-		{
-			return 0;
-		}
-		
-		public int Divide(int numberOne, int numberTwo)
-		{
-			return 0;
-		}
-	}
-}
-```
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba(171%2C%20184%2C%20195%2C%201)&t=seti&wt=none&l=text%2Fx-csharp&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=using%2520System%253B%250A%250Apublic%2520class%2520Program%250A%257B%250A%2509public%2520static%2520void%2520Main(string%255B%255D%2520args)%250A%2509%257B%250A%2509%2509var%2520calculator%2520%253D%2520new%2520Calculator()%253B%250A%2509%2509%250A%2509%2509Console.WriteLine(string.Format(%2522Addition%253A%2520%257B0%257D%2522%252C%2520calculator.Add(7%252C3)))%253B%250A%2509%2509Console.WriteLine(string.Format(%2522Subtraction%253A%2520%257B0%257D%2522%252C%2520calculator.Subtract(8%252C4)))%253B%250A%2509%2509Console.WriteLine(string.Format(%2522Multiplication%253A%2520%257B0%257D%2522%252C%2520calculator.Multiply(9%252C3)))%253B%250A%2509%2509Console.WriteLine(string.Format(%2522Division%253A%2520%257B0%257D%2522%252C%2520calculator.Divide(12%252C3)))%253B%250A%2509%257D%250A%2509%250A%2509public%2520class%2520Calculator%250A%2509%257B%250A%2509%2509public%2520int%2520Add(int%2520numberOne%252C%2520int%2520numberTwo)%250A%2509%2509%257B%250A%2509%2509%2509return%25200%253B%250A%2509%2509%257D%250A%2509%2509%250A%2509%2509public%2520int%2520Subtract(int%2520numberOne%252C%2520int%2520numberTwo)%250A%2509%2509%257B%250A%2509%2509%2509return%25200%253B%250A%2509%2509%257D%250A%2509%2509%250A%2509%2509public%2520int%2520Multiply(int%2520numberOne%252C%2520int%2520numberTwo)%250A%2509%2509%257B%250A%2509%2509%2509return%25200%253B%250A%2509%2509%257D%250A%2509%2509%250A%2509%2509public%2520int%2520Divide(int%2520numberOne%252C%2520int%2520numberTwo)%250A%2509%2509%257B%250A%2509%2509%2509return%25200%253B%250A%2509%2509%257D%250A%2509%257D%250A%257D"
+  style="transform:scale(0.7); width:1024px; height:473px; border:0; overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
 ## Exercise Two - FizzBuzz
 ### The exercise
 Fix the below code so that you have built a FizzBuzz game. Rules: https://en.wikipedia.org/wiki/Fizz_buzz
