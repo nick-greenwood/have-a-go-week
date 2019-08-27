@@ -1,9 +1,9 @@
-# have-a-go-week
+# Have a Go Week 2019 - C#
 
 ## Exercise One - Calculations
-
-Have a go here: https://dotnetfiddle.net/WtLx0V
-
+### Have a go
+https://dotnetfiddle.net/WtLx0V
+### The code
 ```csharp
 using System;
 
@@ -42,6 +42,13 @@ public class Program
 		}
 	}
 }
+```
+### Expected output
+```
+Addition: 10
+Subtraction: 4
+Multiplication: 27
+Division: 4
 ```
 
 ### Exercise Two
