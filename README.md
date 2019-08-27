@@ -7,9 +7,11 @@ Each exercise is broken down into four parts:
 2. **Expected output** - What you should expect the code to output if you code is correct
 
 ![run](/.attachments/ide.png)
+
 3. **Have a go** - The editor for your code. This is where you will see the code and change it. You can run the code at any point by clicking Run
 
 ![run](/.attachments/run.png)
+
 4. **The code** - The code that will be changed to pass the exercise
 ## Exercise One - Calculations
 ### The exercise
