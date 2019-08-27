@@ -59,9 +59,9 @@ public class Program
 	}
 }
 ```
-## Exercise Two
+## Exercise Two - FizzBuzz
 ### The exercise
-Fix the below code so that you have built a FizzBuzz game.
+Fix the below code so that you have built a FizzBuzz game. Rules: https://en.wikipedia.org/wiki/Fizz_buzz
 ### Expected output
 ```
 Say: 1. Speak: 1
