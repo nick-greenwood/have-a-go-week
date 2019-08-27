@@ -6,6 +6,8 @@ Each exercise is broken down into four parts:
 1. **The exercise** - the explanation of the problem
 1. **Expected output** - What you should expect the code to output if you code is correct
 1. **Have a go** - The editor for your code. This is where you will see the code and change it. You can run the code at any point by clicking Run
+
+![run](/.attachments/run.png)
 1. **The code** - The code that will be changed to pass the exercise
 ## Exercise One - Calculations
 ### The exercise
