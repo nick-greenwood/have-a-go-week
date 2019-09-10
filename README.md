@@ -71,6 +71,11 @@ public class Program
 	}
 }
 ```
+### Hints
+```
+What do the following symbols do?
+* / + -
+```
 ## Exercise Two - FizzBuzz
 ### The exercise
 Fix the below code so that you have built a FizzBuzz game. Rules: https://en.wikipedia.org/wiki/Fizz_buzz
