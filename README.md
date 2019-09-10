@@ -1,8 +1,9 @@
 # Have a Go Week 2019 - C#
 ## Contents
-1. [Exercise One](#exercise-one---calculations)
-2. [Exercise Two](#exercise-two---fizzbuzz)
-3. [Exercise Three](#exercise-three---human)
+1. [Introduction](#introduction)
+2. [Exercise One](#exercise-one---calculations)
+3. [Exercise Two](#exercise-two---fizzbuzz)
+4. [Exercise Three](#exercise-three---human)
 ## Introduction
 Welcome to the Have a Go Week session for C#.
 
