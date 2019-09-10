@@ -27,7 +27,7 @@ Multiplication: 27
 Division: 4
 ```
 ### Have a go
-https://dotnetfiddle.net/WtLx0V
+https://dotnetfiddle.net/y9VZuC
 ### The code
 ```csharp
 using System;
@@ -38,10 +38,10 @@ public class Program
 	{
 		var calculator = new Calculator();
 		
-		Console.WriteLine(string.Format("Addition: {0}", calculator.Add(7,3)));
-		Console.WriteLine(string.Format("Subtraction: {0}", calculator.Subtract(8,4)));
-		Console.WriteLine(string.Format("Multiplication: {0}", calculator.Multiply(9,3)));
-		Console.WriteLine(string.Format("Division: {0}", calculator.Divide(12,3)));
+		Console.WriteLine($"Addition: {calculator.Add(7,3)}");
+		Console.WriteLine($"Subtraction: {calculator.Subtract(8,4)}");
+		Console.WriteLine($"Multiplication: {calculator.Multiply(9,3)}");
+		Console.WriteLine($"Division: {calculator.Divide(12,3)}");
 	}
 	
 	public class Calculator
@@ -89,7 +89,7 @@ Say: 4. Speak: 4
 Say: 5. Speak: Buzz
 ```
 ### Have a go
-https://dotnetfiddle.net/Bwyjl5
+https://dotnetfiddle.net/DX0lrZ
 ### The code
 ```csharp
 using System;
@@ -100,11 +100,11 @@ public class Program
 	{
 		var fizzBuzz = new FizzBuzz();
 		
-		Console.WriteLine(string.Format("Say: 1. Speak: {0}", fizzBuzz.Say(1)));
-		Console.WriteLine(string.Format("Say: 2. Speak: {0}", fizzBuzz.Say(2)));
-		Console.WriteLine(string.Format("Say: 3. Speak: {0}", fizzBuzz.Say(3)));
-		Console.WriteLine(string.Format("Say: 4. Speak: {0}", fizzBuzz.Say(4)));
-		Console.WriteLine(string.Format("Say: 5. Speak: {0}", fizzBuzz.Say(5)));
+		Console.WriteLine($"Say: 1. Speak: {fizzBuzz.Say(1)}");
+		Console.WriteLine($"Say: 2. Speak: {fizzBuzz.Say(2)}");
+		Console.WriteLine($"Say: 3. Speak: {fizzBuzz.Say(3)}");
+		Console.WriteLine($"Say: 4. Speak: {fizzBuzz.Say(4)}");
+		Console.WriteLine($"Say: 5. Speak: {fizzBuzz.Say(5)}");
 	}
 	
 	public class FizzBuzz
@@ -136,7 +136,7 @@ Change the code so that the output is correct.
 Joe Bloggs. Engineer. 31 years old.
 ```
 ### Have a go
-https://dotnetfiddle.net/x9uXNP
+https://dotnetfiddle.net/Ug7weJ
 ### The code
 ```csharp
 using System;
@@ -147,7 +147,7 @@ public class Program
 	{
 		var human = new Human("Joe", "Bloggs", "Engineer", DateTime.Now.AddYears(-31).AddMonths(4));
 		
-		Console.WriteLine(string.Format("{0}. {1}. {2} years old.", human.FullName(), human.JobTitle(), human.Age()));
+		Console.WriteLine($"{human.FullName()}. {human.JobTitle()}. {human.Age()}");
 	}
 	
 	public class Human
