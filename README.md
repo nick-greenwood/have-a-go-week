@@ -15,6 +15,7 @@ Each exercise is broken down into four parts:
 ![run](/.attachments/ide.png)
 
 4. **The code** - The starting point for the code, before any changes are made
+5. **Hints** - Any tips we think might be useful
 ## Exercise One - Calculations
 ### The exercise
 Fix the below code so that the Add, Subtract, Multiply and Divide methods return the correct answers.
@@ -122,6 +123,11 @@ public class Program
 	}
 }
 ```
+### Hints
+```
+% 3 == 0
+Checks if a number divides by 3
+```
 ## Exercise Three - Human
 ### The exercise
 Change the code so that the output is correct.
@@ -178,4 +184,14 @@ public class Program
 		}
 	}
 }
+```
+### Hints
+```csharp
+//If you have a DateTime variable you can
+variable.Year //To get the year part. E.g. 2019
+variable.Month //To get the month part. E.g. 7 for July
+variable.Day //To get the day part. E.g. 23
+
+//If you want the current date time you can
+var currentDate = DateTime.Now;
 ```
