@@ -1,8 +1,8 @@
 # Have a Go Week 2019 - C#
 ## Contents
-[Exercise One](#exercise-one)
-[Exercise Two](#exercise-two)
-[Exercise Three](#exercise-three)
+1. [Exercise One](#exercise-one---calculations)
+2. [Exercise Two](#exercise-two)
+3. [Exercise Three](#exercise-three)
 ## Introduction
 Welcome to the Have a Go Week session for C#.
 
@@ -14,7 +14,7 @@ Each exercise is broken down into four parts:
 ![run](/.attachments/ide.png)
 
 4. **The code** - The starting point for the code, before any changes are made
-## Exercise One
+## Exercise One - Calculations
 ### The exercise
 Fix the below code so that the Add, Subtract, Multiply and Divide methods return the correct answers.
 ### Expected output
