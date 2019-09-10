@@ -1,8 +1,8 @@
 # Have a Go Week 2019 - C#
 ## Contents
 1. [Exercise One](#exercise-one---calculations)
-2. [Exercise Two](#exercise-two)
-3. [Exercise Three](#exercise-three)
+2. [Exercise Two](#exercise-two---fizzbuzz)
+3. [Exercise Three](#exercise-three---human)
 ## Introduction
 Welcome to the Have a Go Week session for C#.
 
@@ -70,7 +70,7 @@ public class Program
 	}
 }
 ```
-## Exercise Two
+## Exercise Two - FizzBuzz
 ### The exercise
 Fix the below code so that you have built a FizzBuzz game. Rules: https://en.wikipedia.org/wiki/Fizz_buzz
 ### Expected output
@@ -116,7 +116,7 @@ public class Program
 	}
 }
 ```
-## Exercise Three
+## Exercise Three - Human
 ### The exercise
 Change the code so that the output is correct.
 ### Expected output
