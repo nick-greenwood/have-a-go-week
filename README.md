@@ -133,7 +133,7 @@ Checks if a number divides by 3
 Change the code so that the output is correct.
 ### Expected output
 ```
-Joe Bloggs. Engineer. 31 years old.
+Joe Bloggs. Engineer. 30 years old.
 ```
 ### Have a go
 https://dotnetfiddle.net/Ug7weJ
